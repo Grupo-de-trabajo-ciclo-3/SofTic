@@ -1,6 +1,6 @@
 ahora tenemos texto en este archivo de ejemplo
-Este testo lo escribio tathan
-
+Este texto lo escribio tathan
+otro commit de Tathan
 realizando otro commit paa el team;
 <<<<<<< HEAD
 
