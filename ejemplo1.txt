@@ -2,5 +2,9 @@ ahora tenemos texto en este archivo de ejemplo
 
 
 realizando otro commit paa el team;
+<<<<<<< HEAD
 
 Hola...espero es que esto si salga.
+=======
+hola mundo, soy iwinser
+>>>>>>> e9d808c9f4aaf2b0e38250cb9d4189897ef80673
