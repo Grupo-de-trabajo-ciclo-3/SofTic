@@ -1,5 +1,17 @@
 ahora tenemos texto en este archivo de ejemplo
+Este texto lo escribio tathan
+otro commit de Tathan
+realizando otro commit paa el team;
+<<<<<<< HEAD
 
+<<<<<<< HEAD
 
 realizando otro commit paa el team;
 Hola, este es mi commit...ya lo estoy entendiendo!
+=======
+Hola...espero es que esto si salga.
+=======
+hola mundo, soy iwinser
+>>>>>>> e9d808c9f4aaf2b0e38250cb9d4189897ef80673
+Hola Compañeros Aqui Nestor JP, adicionando cambios 
+>>>>>>> f099052049b5d7d2d47b42e184277fc43cbe7d14
