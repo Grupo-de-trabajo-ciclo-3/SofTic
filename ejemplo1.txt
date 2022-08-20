@@ -2,3 +2,4 @@ ahora tenemos texto en este archivo de ejemplo
 
 
 realizando otro commit paa el team;
+Hola, este es mi commit...ya lo estoy entendiendo!
