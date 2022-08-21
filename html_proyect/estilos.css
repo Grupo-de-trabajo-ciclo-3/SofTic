@@ -90,4 +90,9 @@ a {
 }
 a:hover {
     font-weight: 700;
+    transition: 2s;
+    -webkit-transition: 2s;
+    -moz-transition: 2s;
+    -ms-transition: 2s;
+    -o-transition: 2s;
 }
