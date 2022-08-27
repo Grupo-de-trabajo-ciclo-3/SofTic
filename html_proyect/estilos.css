@@ -1,20 +1,22 @@
 * {
     margin: 0;
     padding: 0;
+    display:flexbox;
 }
 
 .container {
-    width: 90%;
+    width: 90%;   
+    height: 100vh;
     margin: auto;
     display:grid;
-    grid-template-columns: 30% 90%;
+    height:max-content;
+    grid-template-columns: 30% 90%;    
 }
 
 .header {
-    /* width:30%; */
-    margin-top: 0px;
-    height: 660px;
-    background: #D9D9D9;    
+    height: 100vh;
+    background: #D9D9D9;   
+    bottom: 1em;
 }
 .header h2 {
     padding: 20px;
@@ -59,6 +61,7 @@
 .section {
     display:flex;
     width: 80%;
+    height: 100vh;
     background: rgb(255, 245, 245);
 }
 .contederecho {
