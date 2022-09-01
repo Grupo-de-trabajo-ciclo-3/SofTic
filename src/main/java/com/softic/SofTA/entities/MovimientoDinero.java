@@ -1,38 +1,32 @@
 package com.softic.SofTA.entities;
 
 public class MovimientoDinero {
-    String conceptoMovimiento;
-    int montoMovimiento;
-    String users;
-    int acumulador = 0;
-    public MovimientoDinero(String conceptoMovimiento, int montoMovimiento, String users) {
+    private  String conceptoMovimiento;
+    private double montoMovimiento;
+    private  String user;
+
+    public MovimientoDinero(String conceptoMovimiento, double montoMovimiento, String user) {
         this.conceptoMovimiento = conceptoMovimiento;
         this.montoMovimiento = montoMovimiento;
-        this.users = users;
+        this.user = user;
     }
 
+    public String getConceptoMovimiento() {
+        return conceptoMovimiento;
+    }
 
-    public int getMontoMovimiento() {
+    public void setConceptoMovimiento(String conceptoMovimiento) {
+        this.conceptoMovimiento = conceptoMovimiento;
+    }
+
+    public double getMontoMovimiento() {
         return montoMovimiento;
     }
 
-    public void setMontoMovimiento(int montoMovimiento) {
+    public void setMontoMovimiento(double montoMovimiento) {
         this.montoMovimiento = montoMovimiento;
     }
 
-    public String getUsers() {
-        return users;
-    }
-
-    public void setUsers(String users) {
-        this.users = users;
-    }
-
-    public int getAcumulador() {
-        return acumulador;
-    }
-
-    public void setAcumulador(int acumulador) {
-        this.acumulador = acumulador;
-    }
+    public String getUser() {
+        return user;
 }
