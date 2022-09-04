@@ -3,12 +3,12 @@ package com.softic.SofTA.entities;
 public class MovimientoDinero {
     private  String conceptoMovimiento;
     private double montoMovimiento;
-    private  String user;
+    private  String users;
 
-    public MovimientoDinero(String conceptoMovimiento, double montoMovimiento, String user) {
+    public MovimientoDinero(String conceptoMovimiento, double montoMovimiento, String users) {
         this.conceptoMovimiento = conceptoMovimiento;
         this.montoMovimiento = montoMovimiento;
-        this.user = user;
+        this.users = users;
     }
 
     public String getConceptoMovimiento() {
@@ -28,5 +28,6 @@ public class MovimientoDinero {
     }
 
     public String getUser() {
-        return user;
+        return users;
+}
 }
