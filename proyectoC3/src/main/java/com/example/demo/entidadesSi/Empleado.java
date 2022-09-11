@@ -1,16 +1,17 @@
-package entidadesSi;
+package com.example.demo.entidadesSi;
 
 import javax.persistence.*;
 
 @Entity
-@Table
+@Table(name = "Empleadotabla")
 public class Empleado {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     @Column(name = "id", nullable = false)
     private Long id;
-
+    @Column(name = "nombre")
     private String nombre;
+    @Column(name = "correo")
     private String correo;
 
     public Long getId() {

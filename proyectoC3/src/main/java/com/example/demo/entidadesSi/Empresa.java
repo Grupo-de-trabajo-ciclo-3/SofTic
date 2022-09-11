@@ -1,10 +1,31 @@
-package entidadesSi;
+package com.example.demo.entidadesSi;
 
+import javax.persistence.*;
+@Entity
+@Table(name = "empresatabla")
 public class Empresa {
+    @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
+    @Column(name = "id", nullable = false)
+    private Long id;
+    @Column(name = "nombrempresa")
     String nombreEmpresa;
+    @Column(name = "direccion")
     String direccion;
+    @Column(name = "telefono")
     String telefono;
     int nit;
+
+    public Empresa() {
+    }
+
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
 
     public Empresa(String nombreEmpresa, String direccion, String telefono, int nit) {
         this.nombreEmpresa = nombreEmpresa;
@@ -46,7 +67,7 @@ public class Empresa {
     }
 //metodos para leer y para modificar el nombre de la empresa
 
-    @Override
+   /* @Override
     public String toString() {
         return "Empresa{" +
                 "nombreEmpresa='" + nombreEmpresa + '\'' +
@@ -64,7 +85,7 @@ public class Empresa {
 
         //y creo que retornamos el nombre
         return nombre;
-    }
+    }*/
 
 
 
