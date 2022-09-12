@@ -1,7 +1,7 @@
-package com.example.demo.controladores;
+package demo.controladores;
 
-import com.example.demo.entidadesSi.Empresa;
-import com.example.demo.servicios.ServicioEmpresa;
+import demo.entidadesSi.Empresa;
+import demo.servicios.ServicioEmpresa;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;

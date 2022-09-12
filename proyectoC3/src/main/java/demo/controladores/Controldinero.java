@@ -1,4 +1,4 @@
-package controladores;
+package demo.controladores;
 
 import org.springframework.web.bind.annotation.GetMapping;
 
