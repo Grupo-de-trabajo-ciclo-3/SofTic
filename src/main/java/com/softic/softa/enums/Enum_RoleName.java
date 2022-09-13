@@ -1,5 +1,9 @@
 package com.softic.softa.enums;
 
-public enum Enum_RoleName {
+import javax.persistence.Table;
 
+@Table(name = "roleName")
+public enum Enum_RoleName {
+    Admin,
+    Operario
 }
